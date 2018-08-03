@@ -1,0 +1,31 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg primary-color" >
+  <logo>
+      <a class="logo navbar-brand" href="#"><strong>Login App</strong></a>
+  </logo>
+  <links>
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active waves-light" mdbRippleRadius>
+              <a class="nav-link" [routerLink]="['/']" >Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link" [routerLink]="['/register']" >Register</a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link"[routerLink]="['/login']" >Login</a>
+          </li>
+    
+      </ul>
+      <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+              <a class="nav-link"><i class="fa fa-instagram"></i></a>
+          </li>
+      </ul>
+  </links>
+</mdb-navbar>
+
